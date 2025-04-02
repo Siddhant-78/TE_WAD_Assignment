@@ -1,0 +1,57 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery Mobile: Theme Download</title>
+	<link rel="stylesheet" href="themes/Phonepe.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+	<div data-role="page" data-theme="a">
+		<div data-role="header" data-position="inline">
+			<h1>PhonePe</h1>
+		</div>
+		<div data-role="content" data-theme="a">
+				<p>Transfer Money:</p><br>
+				<a href="#page2"><img src="toself.jpg"></a>
+				<a href="#page3"><img src="to account.jpg"></a>
+				<img src="BALANCE.jpg">
+			<div data-role="main" data-position="inline">
+					<h1>Pay The Bills</h1>
+			</div>					
+				
+								
+		</div>
+	</div>
+	<div id="page2" data-role="page" data-theme="a">
+		<div data-role="header" data-position="inline">
+			<h1>PhonePe</h1>
+		</div>
+		<div data-role="content" data-theme="a" style="width: 300px;">
+				<label for="mobile">Enter the No:</label>
+				<input type="text" placeholder ="Enter the Mobile No:"/>	
+				<label for="Amt">Enter the Amt:</label>
+				<input type="text" placeholder ="Enter the Amount"/>		
+				<button>Send</button>		
+		</div>
+	</div>
+	<div id="page3" data-role="page" data-theme="a">
+		<div data-role="header" data-position="inline">
+			<h1>PhonePe</h1>
+		</div>
+		<div data-role="content" data-theme="a" style="width: 300px ;">
+			<label for="Account">Enter the Account No:</label>
+			<input type="text" placeholder ="Enter the Account No:"/>	
+			<label for="Ifsc">Enter the Ifsc No:</label>
+			<input type="text" placeholder ="Enter the Ifsc No:"/>	
+			<label for="Amt">Enter the Amt:</label>
+			<input type="text" placeholder ="Enter the Amount"/>		
+			<button>Send</button>
+								
+		</div>
+	</div>
+</body>
+</html>
